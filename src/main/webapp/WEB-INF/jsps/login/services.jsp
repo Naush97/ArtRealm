@@ -1,0 +1,179 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Services</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-2">
+       
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="/"> <img src="https://img.lovepik.com/element/45006/8218.png_860.png" style="height: 60px;width: 60px;" alt=""></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/profilePage.html">About Us</a>
+              </li>
+            </ul>
+           <button class="btn btn-outline-success" type="submit"><a
+              style="color: rgb(249, 247, 247);text-decoration: none;" href="showLoginPage">Logout</a></button>
+          </div>
+        </div>
+     
+      </nav>
+      
+  <!--    
+  		UNUSED CODE AND BUTTONS
+  <p>
+        <button style="background-color: rgb(40, 70, 241);;" class="btn btn-info mt-3">
+              <a style="color: rgb(249, 247, 247);" href="displayArtists">Find Artist</a> </button>
+				
+				 
+				 
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Button with data-bs-target
+        </button>
+      </p> -->
+      
+      
+	    
+	      
+	       <div class="row">
+        <div class="col-4">
+
+        </div>
+   
+         <div  class="col-4">
+	      	<form class ="mt-3 row  " action="findYourArtist" method="Get">
+	      					
+				<input class ="btn btn-warning" type="submit" value="Find Artist">
+				
+			</form>
+	      </div>
+
+          
+        <div class="col-4">
+
+        </div>
+    </div>
+      
+      
+      
+      <div class="collapse mt-10" id="collapseExample">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-2">
+            <div class="col-lg-4">
+              <img src="https://static.vecteezy.com/system/resources/previews/020/962/880/original/magician-graphic-clipart-design-free-png.png" class="bd-placeholder-img rounded-circle" width="140" height="140" <title></title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>>
+      
+              <h4>Magician</h4>
+              
+              <p><a class="btn btn-secondary" href="magician.html">View »</a></p>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="col-lg-4">
+              <img src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-joker-mask-face-png-png-image_5687130.png" class="bd-placeholder-img rounded-circle" width="140" height="140"<title></title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>>
+      
+              <h4>Jockers</h4>
+              <p><a class="btn btn-secondary" href="jockers.html">View »</a></p>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="col-lg-4">
+              <img src="https://pngimg.com/d/break_dance_PNG59.png" class="bd-placeholder-img rounded-circle" width="140" height="140"<title></title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>>
+      
+              <h4>Dancers</h4>
+              <p><a class="btn btn-secondary" href="#">View »</a></p>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="col-lg-4">
+              <img src="https://www.pngall.com/wp-content/uploads/8/Rock-Band-Musicians-PNG-Clipart.png" class="bd-placeholder-img rounded-circle" width="140" height="140"<title></title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>>
+      
+              <h5>Rock-Band</h5>
+              <p><a class="btn btn-secondary" href="#">View »</a></p>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="col-lg-4">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Singer_icon_transparent.png" class="bd-placeholder-img rounded-circle" width="140" height="140"<title></title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>>
+      
+              <h4>Singers</h4>
+              <p><a class="btn btn-secondary" href="#">View »</a></p>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="col-lg-4">
+              <img src="https://png.pngtree.com/png-vector/20221106/ourmid/pngtree-cartoon-jester-juggling-colorful-balls-png-image_6428468.png" class="bd-placeholder-img rounded-circle" width="140" height="140"<title></title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>>
+      
+              <h4>Jugglers</h4>
+             
+              <p><a class="btn btn-secondary" href="#">View »</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+</div>
+
+  
+</div>
+<br><br><br><br><br>
+<footer class="footer text-white" style="background-color: rgb(52,58,64);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mt-4">
+                <h4>Follow Us</h4>
+                <!-- Add your social media buttons here -->
+                <a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="btn btn-info"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="btn btn-danger"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="col-md-6 mt-3">
+                <h4>Contact Information</h4>
+                <!-- Add your contact information here -->
+                <p>Email: artrealm@gmail.com</p>
+                <p>Mobile: (+91) 9876-321-012</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script> -->
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+</html>
